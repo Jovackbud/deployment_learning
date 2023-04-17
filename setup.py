@@ -4,7 +4,7 @@ setup(
     name='salespredad',
     version='0.1.0',
     packages=[''],
-    url='',
+    url='https://salespredad.herokuapp.com/',
     license='MIT',
     author='User',
     author_email='victorkola97@gmail.com',
