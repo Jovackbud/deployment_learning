@@ -19,6 +19,11 @@ def predict():
     return jsonify({'prediction': str(prediction)})
 
 
+@app.route('/', methods=['GET'])
+def test():
+    return 'up and running'
+
+
 if __name__ == '__main__':
     # LOADS MODEL AND FEATURE COLUMNS
     model = joblib.load("model.pkl")
